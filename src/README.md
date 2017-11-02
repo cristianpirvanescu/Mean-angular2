@@ -1,4 +1,4 @@
-# Angular, NodeJS, MongoDB Customers Service1
+# Angular, NodeJS, MongoDB Customers Service
 
 This project provides a look at getting started using Angular Http functionality and how it can be used
 to call a Node.js RESTful service.  
