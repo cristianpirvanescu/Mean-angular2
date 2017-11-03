@@ -13,9 +13,9 @@ to call a Node.js RESTful service.
 * Working with Angular service classes for Ajax calls
 * Using Angular databinding and built-in directives
 
-## Software Requirements To Run Locally (there's a Docker option below as well)
+## Software Requirements To Run Locally
 
-* Node.js 6.10 or higher
+* Node.js 8 or higher
 * MongoDB 3.2 or higher
 
 ### Running the Application Locally
@@ -38,27 +38,3 @@ to call a Node.js RESTful service.
 1. Run `npm start` to compile the TypeScript and start the server
 
 1. Browse to http://localhost:3000
-
-## Running the Application with Docker
-
-1. Install Node.js (6.10 or higher) and Docker for Mac/Windows or Docker Toolbox - https://www.docker.com/products/overview
-
-1. Open `config/config.development.json` and change the host from `localhost` to `mongodb`
-
-1. Install Gulp: `npm install gulp -g`
-
-1. Run `npm install`
-
-1. Run `gulp copy:libs`
-
-1. Run `npm run tsc:w` to compile TypeScript to JavaScript locally (leave the window running). This is only needed when in "dev" mode.
-
-1. Open another command window and navigate to this application's root folder in the command window
-
-1. Run `docker-compose build` to build the images
-
-1. Run `docker-compose up` to run the containers
-
-1. Navigate to http://localhost:3000 if using Docker for Mac/Windows or http://192.168.99.100:3000 if using Docker Toolbox in a browser
-
-
