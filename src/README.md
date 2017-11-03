@@ -1,5 +1,4 @@
-# Angular, NodeJS, MongoDB Customers Service
-
+# Angular, NodeJS, MongoDB
 This project provides a look at getting started using Angular Http functionality and how it can be used
 to call a Node.js RESTful service.  
 
@@ -25,16 +24,16 @@ to call a Node.js RESTful service.
     * Node.js: https://nodejs.org
     * MongoDB: https://docs.mongodb.com/manual/installation
 
-1. Execute `mongod` to start the MongoDB daemon if it's not already running
+2. Execute `mongod` to start the MongoDB daemon if it's not already running
 
-1. Install Nodemon and Gulp: `npm install nodemon gulp -g`
+3. Install Nodemon and Gulp: `npm install nodemon gulp -g`
 
-1. Run `npm install` to install app dependencies
+4. Run `npm install` to install app dependencies
 
-1. Run the following Gulp task to copy required Angular modules into the `public` folder: 
+5. Run the following Gulp task to copy required Angular modules into the `public` folder: 
 
     `gulp copy:libs`
 
-1. Run `npm start` to compile the TypeScript and start the server
+6. Run `npm start` to compile the TypeScript and start the server
 
-1. Browse to http://localhost:3000
+7. Browse to http://localhost:3000
