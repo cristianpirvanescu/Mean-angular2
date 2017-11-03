@@ -1,0 +1,10 @@
+https://app.pluralsight.com/library/courses/node-intro/table-of-contents
+https://app.pluralsight.com/library/courses/mongoose-for-nodejs-mongodb/table-of-contents
+https://app.pluralsight.com/library/courses/angular-nodejs-restful-services/table-of-contents
+https://app.pluralsight.com/library/courses/nodejs-advanced/table-of-contents
+
+https://app.pluralsight.com/library/courses/nodejs-express-web-applications/table-of-contents
+https://app.pluralsight.com/library/courses/nodejs-security-express-angular-get-started/table-of-contents
+
+https://github.com/DavideViolante/Angular-Full-Stack
+https://github.com/DanWahlin/Angular-RESTfulService
