@@ -12,6 +12,7 @@ const express       = require('express'),
     router          = require('./routes/router'),
     database        = require('./lib/database'),
     seeder          = require('./lib/dbSeeder'),
+    multer          = require('multer'),
     app             = express(),
     port            = 3000;
 
@@ -58,6 +59,11 @@ class Server {
             res.cookie('XSRF-TOKEN', csrfToken);
             next();
         });
+        app.use(multer({ dest: './uploads/',
+            rename: function (fieldname, filename) {
+              return filename;
+            },
+           }));
 
         process.on('uncaughtException', (err) => {
             if (err) console.log(err, err.stack);
