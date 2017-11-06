@@ -37,3 +37,5 @@ to call a Node.js RESTful service.
 6. Run `npm start` to compile the TypeScript and start the server
 
 7. Browse to http://localhost:3000
+
+8. Git push configs:
