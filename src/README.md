@@ -1,4 +1,3 @@
-https://github.com/coryhouse/pluralsight-redux-starter
 # Angular, NodeJS, MongoDB
 This project provides a look at getting started using Angular Http functionality and how it can be used
 to call a Node.js RESTful service.  
